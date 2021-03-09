@@ -8,5 +8,4 @@ scikit-learn
 pickleshare
 plotly
 gensim
-pickle
 nltk
