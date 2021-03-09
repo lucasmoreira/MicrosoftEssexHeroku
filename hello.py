@@ -15,12 +15,6 @@ from nltk.corpus import stopwords
 
 stop_words = set(stopwords.words('english')) 
 
-
-
-
-
-
-
 st.title('News classifier - LAMFO & University of Essex & Microsoft AI for Health')
 
 classificacao = False
