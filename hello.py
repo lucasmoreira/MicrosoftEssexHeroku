@@ -8,6 +8,16 @@ from gensim.corpora.dictionary import Dictionary
 import pickle
 from nltk.stem.wordnet import WordNetLemmatizer
 from gensim.parsing.preprocessing import remove_stopwords
+from gensim.models.phrases import Phrases
+import re
+from nltk.corpus import stopwords
+
+
+stop_words = set(stopwords.words('english')) 
+
+
+
+
 
 
 
@@ -17,14 +27,19 @@ classificacao = False
 
 lda_model = models.LdaModel.load("ldamodel")
 common_dictionary = Dictionary.load("ldadic")
+phrase_model = Phrases.load("phaser")
 
 def classificalda(x):
     
     x = remove_stopwords(x)
+    x =  re.sub(r'\W', ' ', x)
     x =  x.lower()
     x =  x.split()
     lemmatizer = WordNetLemmatizer()
     x =  [lemmatizer.lemmatize(token) for token in x]
+    x = [w for w in x if not w in stop_words]
+    x =  phrase_model[x]
+
 
 
     other_corpus = common_dictionary.doc2bow(x)
@@ -38,10 +53,10 @@ def classificalda(x):
     c_ = topic_percs_sorted[2][1]
     return (a,b,c,a_,b_,c_)
 
-# Load from file
-pkl_filename = "pickle_model.pkl"
-with open(pkl_filename, 'rb') as file:
-    clf = pickle.load(file)
+# # Load from file
+# pkl_filename = "pickle_model.pkl"
+# with open(pkl_filename, 'rb') as file:
+#     clf = pickle.load(file)
 
 teste = st.text_input("Enter text to classify bellow.")
 
@@ -53,7 +68,7 @@ a,b,c,a_,b_,c_ = classificalda(teste)
 d = {'lda1': [a], 'lda2': [b],'lda2': [b],'lda3': [c]}
 df = pd.DataFrame(data=d)
 
-classificacao = clf.predict(df)
+# classificacao = clf.predict(df)
 
 
 
@@ -84,13 +99,13 @@ fig = go.Figure(go.Indicator(
 ))
 
 
-st.plotly_chart(fig, use_container_width=True)
+# st.plotly_chart(fig, use_container_width=True)
 
 
 st.write("This text contais topics: A (A_%); B (B_%); C* (C_%). Check bellow the meaning of each topic.".replace("A_",str(int(100*a_))).replace("B_",str(int(100*b_))).replace("C_",str(int(100*c_))).replace("A",str(a+1)).replace("B",str(b+1)).replace("C*",str(c+1)))
 
 
-f = open("../results/LDA.html" , "r")
+f = open("LDA.html" , "r")
 data = f.read()
 
 st.components.v1.html(data, width = 1200, height = 800, scrolling = True)
