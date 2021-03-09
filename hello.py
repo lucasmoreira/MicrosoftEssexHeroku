@@ -11,6 +11,7 @@ from gensim.parsing.preprocessing import remove_stopwords
 from gensim.models.phrases import Phrases
 import re
 from nltk.corpus import stopwords
+nltk.download('stopwords')
 
 
 stop_words = set(stopwords.words('english')) 
