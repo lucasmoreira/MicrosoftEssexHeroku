@@ -1,11 +1,11 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
-import os, sys
-import plotly.graph_objects as go
+# import numpy as np
+# import os, sys
+# import plotly.graph_objects as go
 from gensim import models
 from gensim.corpora.dictionary import Dictionary
-import pickle
+# import pickle
 from nltk.stem.wordnet import WordNetLemmatizer
 from gensim.parsing.preprocessing import remove_stopwords
 from gensim.models.phrases import Phrases
@@ -14,10 +14,9 @@ from nltk.corpus import stopwords
 import nltk
 import urllib.request, urllib.error, urllib.parse
 import ssl
-# nltk.download('stopwords')
-# nltk.download('wordnet')
+nltk.download('stopwords')
+nltk.download('wordnet')
 st.set_page_config(layout='wide')
-from datetime import datetime
 
 st.title('News classifier - LAMFO & University of Essex & Microsoft AI for Health')
 
@@ -33,11 +32,8 @@ def importdados():
 
     return stop_words, lda_model, common_dictionary, phrase_model
 
-now = datetime.now()
 stop_words, lda_model, common_dictionary, phrase_model = importdados()
-later = datetime.now()
-difference = (later - now).total_seconds()
-st.write(difference)
+
 
 def classificalda(x):
     x = remove_stopwords(x)
@@ -157,9 +153,5 @@ f = open("LDA.html" , "r")
 data = f.read()
 
 st.components.v1.html(data, width = 1200, height = 900, scrolling = True)
-
-
-url = 'https://www.bbc.com/future/article/20210315-why-noise-pollution-is-bad-for-your-heart'
-
 
 
