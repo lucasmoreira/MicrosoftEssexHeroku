@@ -76,7 +76,7 @@ if url and teste:
     st.stop()
 
 
-if not st.button('Processar'):
+if not st.button('Process'):
     st.stop()
 
 if url:
@@ -104,7 +104,6 @@ else:
         st.stop()
         
 
-st.spinner()
 with st.spinner(text='In progress'):
      a,b,c,a_,b_,c_ = classificalda(teste)
      st.success('Done! ' +"Results for "+ tipoinput +". This text contais topics: A (A_%); B (B_%); C* (C_%). Check bellow the meaning of each topic.".replace("A_",str(int(100*a_))).replace("B_",str(int(100*b_))).replace("C_",str(int(100*c_))).replace("A",str(a+1)).replace("B",str(b+1)).replace("C*",str(c+1)))
