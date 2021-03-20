@@ -81,11 +81,14 @@ if not st.button('Process'):
 
 if url:
     tipoinput = "URL"
-    if "www" not in url:
+    if "www" not in url and "http://" not in url and "https://" not in url:
         url = "www." + url
-    if "http" not in url:
-        url = "http://"+url
-    
+        print("ok")
+    if "www" in url and "http://" not in url:
+        pass
+    if "www" not in url and "http://" in url:
+        url = re.sub(r'.*//', 'www.', url)    
+    print(url)
     try:    
         context = ssl._create_unverified_context()
         response = urllib.request.urlopen(url,context=context)
@@ -152,5 +155,10 @@ f = open("LDA.html" , "r")
 data = f.read()
 
 st.components.v1.html(data, width = 1200, height = 900, scrolling = True)
+
+f = open("sites.txt" , "r")
+data = f.read()
+
+st.markdown(data)
 
 
