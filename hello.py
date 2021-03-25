@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 # import numpy as np
 # import os, sys
-# import plotly.graph_objects as go
+import plotly.graph_objects as go
 from gensim import models
 from gensim.corpora.dictionary import Dictionary
 # import pickle
@@ -17,6 +17,9 @@ import ssl
 nltk.download('stopwords')
 nltk.download('wordnet')
 st.set_page_config(layout='wide')
+
+f = open("LDA.html" , "r")
+data = f.read()
 
 st.title('News classifier - LAMFO & University of Essex & Microsoft AI for Health')
 
@@ -59,6 +62,9 @@ def classificalda(x):
     b_ = topic_percs_sorted[1][1]
     c_ = topic_percs_sorted[2][1]
 
+    if a_ < 0.3:
+        st.warning('Results may have low confidence (<30% homogeneity), consider changing or rewriting the input.')
+        
     if a_ < 0.2:
         st.error('Results have low confidence, consider changing or rewriting the input.')
         st.stop()
@@ -77,17 +83,18 @@ if url and teste:
 
 
 if not st.button('Process'):
+    with st.beta_expander('See LDA topics distribution'):
+        st.components.v1.html(data, width = 1200, height = 900, scrolling = True)
     st.stop()
 
 if url:
     tipoinput = "URL"
     if "www" not in url and "http://" not in url and "https://" not in url:
-        url = "www." + url
-        print("ok")
-    if "www" in url and "http://" not in url:
-        pass
-    if "www" not in url and "http://" in url:
-        url = re.sub(r'.*//', 'www.', url)    
+        url = "http://www." + url
+    if "www" in url and "http://" not in url and "http://" not in url:
+        url = url.replace("www.","http://www.")
+    if "www" not in url and "http" in url:
+        url = re.sub(r'.*//', 'http://www.', url)    
     print(url)
     try:    
         context = ssl._create_unverified_context()
@@ -96,7 +103,8 @@ if url:
         if len(webContent) > 10000:
             teste = webContent[0:10000]
         teste = webContent
-    except:
+    except Exception as e:
+        print(e)
         st.error('URL not valid')
         st.stop()
     
@@ -120,45 +128,41 @@ df = pd.DataFrame(data=d)
 
 
 
-
-
-
-# if not classificacao:
-#     valor = 0
-#     cor = "red"
-# else:
-#     valor = int(classificacao)
-#     if valor>3:
-#         cor = "green"
-#     else:
-#         cor = "red"
-    
-# fig = go.Figure(go.Indicator(
-#     mode = "gauge+number",
-#     value = valor,
-#     gauge = {"axis": {
-#         "range": [0,6]
-#       },
-#           "bar": {"color" :cor}},
-#     title = {'text': "Truthiness"},
-#     domain = {'x': (0,1), 'y': (0,1)}
-# ))
-
-
-# st.plotly_chart(fig, use_container_width=True)
-
-
 # st.write()
 
+with st.beta_expander('See LDA topics distribution'):
+        st.components.v1.html(data, width = 1200, height = 900, scrolling = True)
 
-f = open("LDA.html" , "r")
-data = f.read()
+with st.beta_expander('See examples for each topic'):
 
-st.components.v1.html(data, width = 1200, height = 900, scrolling = True)
+    st.warning("Examples will need to be better choosen, consider them only as one extra reference.")
+    f = open("sites.txt" , "r")
+    data = f.read()
+    st.markdown(data)
 
-f = open("sites.txt" , "r")
-data = f.read()
 
-st.markdown(data)
+
+
+for x, x_ in zip([a,b,c],[a_,b_,c_]):
+    if x == 0:
+        valor = x_ * 100
+        
+    else:
+        valor = 0
+    cor = "red"
+    
+fig = go.Figure(go.Indicator(
+    mode = "gauge+number",
+    value = valor,
+    gauge = {"axis": {
+        "range": [0,100]
+      },
+          "bar": {"color" :cor}},
+    title = {'text': "Misinformation"},
+    domain = {'x': (0,1), 'y': (0,1)}
+))
+
+with st.beta_expander('See percentage of misinformation (Topic 1)'):
+    st.plotly_chart(fig, use_container_width=True)
 
 
