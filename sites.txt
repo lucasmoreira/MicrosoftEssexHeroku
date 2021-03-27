@@ -1,0 +1,317 @@
+# Examples for each topic 
+
+## Topic 1
+(1) https://www.cnn.com/2021/02/24/politics/business-leaders-biden-covid-plan/index.html 96% 
+
+(2) https://www.cnn.com/2021/02/23/politics/republican-opposition-biden-relief-plan/index.html 91% 
+
+(3) https://www.cnn.com/2021/02/18/politics/biden-immigration-legislation/index.html 99% 
+
+(4) https://www.cnn.com/2021/02/16/politics/president-biden-top-agenda-priorities/index.html 91% 
+
+(5) https://www.cnn.com/2021/02/05/politics/joe-biden-jobs-numbers-relief-package/index.html 99% 
+
+(6) https://www.cnn.com/2021/01/25/politics/biden-pandemic-relief-economic-stimulus/index.html 93% 
+
+(7) https://www.cnn.com/2021/01/23/politics/joe-biden-agenda-trump-impeachment/index.html 99% 
+
+(8) https://www.cnn.com/2021/01/15/economy/december-retail-sales/index.html 99% 
+
+(9) https://www.cnn.com/2021/01/14/politics/biden-vaccination-economic-rescue-package/index.html 94% 
+
+(10) https://www.cnn.com/2021/01/06/us/california-covid-records/index.html 99% 
+
+
+## Topic 2
+(1) https://www.cnn.com/2021/02/16/media/china-box-office-lunar-new-year-intl-hnk/index.html 91% 
+
+(2) https://www.cnn.com/2021/02/10/health/weight-loss-diabetes-drug-injected-wellness/index.html 90% 
+
+(3) https://www.cnn.com/2021/02/08/politics/watchdog-report-covid-outbreak-roosevelt/index.html 99% 
+
+(4) https://www.cnn.com/2021/01/12/asia/malaysia-state-of-emergency-covid-intl-hnk/index.html 99% 
+
+(5) https://www.cnn.com/2020/12/26/europe/vladimir-putin-2020-russia-covid-navalny-intl/index.html 90% 
+
+(6) https://www.cnn.com/2020/12/21/politics/surprise-medical-billing-congress/index.html 99% 
+
+(7) https://www.cnn.com/2020/12/20/asia/thailand-covid-samut-sakhon-intl-hnk/index.html 99% 
+
+(8) https://www.cnn.com/2020/12/04/health/womens-health-care-ob-gyn-survey-wellness/index.html 99% 
+
+(9) https://www.cnn.com/2020/11/25/politics/usaid-john-barsa-coronavirus/index.html 93% 
+
+(10) https://www.cnn.com/2020/11/23/us/kansas-city-fire-employee-deaths/index.html 99% 
+
+
+## Topic 3
+(1) https://www.cnn.com/2021/02/19/politics/stimulus-house-democrats-proposal/index.html 99% 
+
+(2) https://www.cnn.com/2021/02/25/health/fitness-covid-19-outbreaks-wellness/index.html 98% 
+
+(3) https://www.cnn.com/2021/02/22/politics/ppp-loans-biden-administration-small-businesses/index.html 99% 
+
+(4) https://www.cnn.com/2021/02/18/health/in-person-school-dr-wen-pandemic-wellness/index.html 99% 
+
+(5) https://www.cnn.com/2021/02/16/politics/stimulus-update-house-democrats-proposal/index.html 99% 
+
+(6) https://www.cnn.com/2021/02/14/politics/school-reopenings-cdc-director-walensky/index.html 99% 
+
+(7) https://www.cnn.com/2021/02/11/health/new-cdc-guidance-schools-anticipated/index.html 99% 
+
+(8) https://www.cnn.com/2021/02/08/politics/reopening-schools-safely-facts-debate/index.html 99% 
+
+(9) https://www.cnn.com/2021/01/31/us/chicago-schools-covid-19-reopen-negotiations/index.html 99% 
+
+(10) https://www.cnn.com/2021/01/29/us/youth-suicides-closed-schools-pandemic/index.html 99% 
+
+
+## Topic 4
+(1) https://www.cnn.com/2021/02/26/sport/eddie-jones-england-rugby-spt-intl/index.html 99% 
+
+(2) https://www.cnn.com/2021/02/09/tech/lyft-earnings/index.html 98% 
+
+(3) https://www.cnn.com/2021/02/07/tennis/serena-williams-rafael-nadal-australian-open-spt-intl-cmd/index.html 99% 
+
+(4) https://www.cnn.com/2021/01/29/sport/australian-open-adelaide-exhibition-crowds-intl-hnk/index.html 98% 
+
+(5) https://www.cnn.com/2021/01/19/politics/hawley-mayorkas-dhs/index.html 94% 
+
+(6) https://www.cnn.com/2021/01/08/europe/europe-overwhelmed-coronavirus-variant-intl/index.html 99% 
+
+(7) https://www.cnn.com/2021/01/08/asia/japan-comfort-women-damages-intl-hnk/index.html 91% 
+
+(8) https://www.cnn.com/2021/01/05/europe/european-coronavirus-lockdowns-2021-intl/index.html 98% 
+
+(9) https://www.cnn.com/2021/01/05/investing/premarket-stocks-trading/index.html 99% 
+
+(10) https://www.cnn.com/2021/01/03/investing/stocks-week-ahead/index.html 97% 
+
+
+## Topic 5
+(1) https://www.cnn.com/2021/01/26/americas/canada-exec-yukon-coronavirus-vaccine-trnd/index.html 99% 
+
+(2) https://www.cnn.com/2021/01/08/asia/china-hebei-covid-lockdown-intl-hnk/index.html 99% 
+
+(3) https://www.cnn.com/2020/12/16/asia/south-korea-japan-coronavirus-intl-hnk/index.html 99% 
+
+(4) https://www.cnn.com/2020/12/13/europe/germany-christmas-covid-19-intl-scli-grm/index.html 98% 
+
+(5) https://www.cnn.com/travel/article/iceland-covid-test-travel-intl-scli/index.html 98% 
+
+(6) https://www.cnn.com/2020/11/30/politics/canada-trump-prescription-drug-imports/index.html 99% 
+
+(7) https://www.cnn.com/2020/11/25/asia/coronavirus-asia-west-comparison-intl-hnk/index.html 99% 
+
+(8) https://www.cnn.com/2020/11/14/asia/biden-north-korea-intl-hnk/index.html 99% 
+
+(9) https://www.cnn.com/2020/11/02/us/massachusetts-covid-stay-at-home-trnd/index.html 98% 
+
+(10) https://www.cnn.com/2020/11/01/asia/australia-zero-local-coronavirus-intl-hnk/index.html 98% 
+
+
+## Topic 6
+(1) https://www.cnn.com/2021/02/12/tech/amazon-sues-new-york-attorney-general/index.html 99% 
+
+(2) https://www.cnn.com/2021/02/05/politics/refugee-cap-biden/index.html 99% 
+
+(3) https://www.cnn.com/2021/01/28/health/covid-19-miami-heat-dogs-explainer-wellness/index.html 99% 
+
+(4) https://www.cnn.com/2021/01/12/politics/homeland-security-wolf-gaynor-leadership/index.html 99% 
+
+(5) https://www.cnn.com/2021/01/04/asia/japan-covid-state-of-emergency-intl-hnk/index.html 96% 
+
+(6) https://www.cnn.com/2020/12/31/us/things-that-got-us-through-2020-trnd/index.html 99% 
+
+(7) https://www.cnn.com/travel/article/skiing-during-covid-19-vermont-us/index.html 99% 
+
+(8) https://www.cnn.com/2020/12/25/business/china-power-shortage-intl-hnk-dst/index.html 99% 
+
+(9) https://www.cnn.com/2020/12/24/media/wonder-woman-1984-hbo-max-soul-disney-plu/index.html 99% 
+
+(10) https://www.cnn.com/2020/12/16/media/tom-cruise-mission-impossible-rant-coronavirus/index.html 99% 
+
+
+## Topic 7
+(1) https://www.cnn.com/2021/02/28/health/us-coronavirus-sunday/index.html 99% 
+
+(2) https://www.cnn.com/2021/02/28/politics/anthony-fauci-vaccines-cnntv/index.html 99% 
+
+(3) https://www.cnn.com/2021/02/28/europe/czech-republic-coronavirus-disaster-intl/index.html 93% 
+
+(4) https://www.cnn.com/2021/02/26/world/coronavirus-newsletter-02-26-21-intl/index.html 98% 
+
+(5) https://www.cnn.com/2021/02/25/health/us-coronavirus-thursday/index.html 99% 
+
+(6) https://www.cnn.com/2021/02/24/health/us-coronavirus-wednesday/index.html 99% 
+
+(7) https://www.cnn.com/2021/02/22/uk/boris-johnson-england-lockdown-cnn-intl-uk-vaccine-gbr/index.html 92% 
+
+(8) https://www.cnn.com/2021/02/24/world/coronavirus-newsletter-02-24-21-intl/index.html 99% 
+
+(9) https://www.cnn.com/2021/02/19/health/post-covid-syndrome-long-haulers-gupta-wellness/index.html 94% 
+
+(10) https://www.cnn.com/2021/02/22/business/companies-vaccine-mandatory/index.html 91% 
+
+
+## Topic 8
+(1) https://www.cnn.com/2021/02/18/us/congress-slavery-reparations-effort-trnd/index.html 99% 
+
+(2) https://www.cnn.com/2021/02/18/tennis/osaka-williams-australian-open-intl-hnk/index.html 99% 
+
+(3) https://www.cnn.com/2021/02/05/health/covid-19-indoor-dining-dont-do-it-wellness/index.html 99% 
+
+(4) https://www.cnn.com/2021/01/27/golf/rasmus-hojgaard-european-tour-golf-teenage-twins-spc-spt-intl/index.html 99% 
+
+(5) https://www.cnn.com/2021/01/22/europe/europe-covid-medical-masks-intl/index.html 97% 
+
+(6) https://www.cnn.com/travel/article/uk-suspends-travel-corridors/index.html 98% 
+
+(7) https://www.cnn.com/2021/01/14/europe/belgium-protest-arrests-intl/index.html 99% 
+
+(8) https://www.cnn.com/2021/01/13/asia/japan-coronavirus-emergency-olympics-intl-hnk/index.html 92% 
+
+(9) https://www.cnn.com/2020/12/31/europe/eu-bad-2020-2021-analysis-intl/index.html 98% 
+
+(10) https://www.cnn.com/2020/12/22/us/tennessee-coronavirus-outbreak/index.html 99% 
+
+
+## Topic 9
+(1) https://www.cnn.com/2021/02/16/business/australia-china-wine-tariffs-dst-intl-hnk/index.html 99% 
+
+(2) https://www.cnn.com/2021/02/16/business/germany-border-checks-manufacturing/index.html 99% 
+
+(3) https://www.cnn.com/travel/article/singapore-airlines-covid-vaccination-wellness-intl-hnk/index.html 99% 
+
+(4) https://www.cnn.com/2020/12/11/europe/europe-covid-cases-restrictions-intl/index.html 97% 
+
+(5) https://www.cnn.com/2020/11/27/asia/china-xi-jinping-poverty-alleviation-intl-hnk/index.html 99% 
+
+(6) https://www.cnn.com/travel/article/selina-wang-asia-covid-quarantine-intl-hnk/index.html 99% 
+
+(7) https://www.cnn.com/2020/11/05/economy/uk-economy-recession/index.html 99% 
+
+(8) https://www.cnn.com/travel/article/skiing-seasons-changes-coronavirus/index.html 96% 
+
+(9) https://www.cnn.com/2020/11/02/europe/slovakia-mass-coronavirus-test-intl/index.html 99% 
+
+(10) https://www.cnn.com/2020/10/31/europe/uk-lockdown-coronavirus-europe-intl/index.html 99% 
+
+
+## Topic 10
+(1) https://www.cnn.com/travel/article/uk-quarantine-hotels/index.html 97% 
+
+(2) https://www.cnn.com/2021/01/24/economy/oxfam-inequality-rich-poverty/index.html 99% 
+
+(3) https://www.cnn.com/travel/article/sandwich-brexit-netherlands-intl-scli-gbr/index.html 99% 
+
+(4) https://www.cnn.com/travel/article/will-covid-end-backpacking-travel/index.html 99% 
+
+(5) https://www.cnn.com/2020/12/07/africa/kenya-covid-rural-spread-intl/index.html 99% 
+
+(6) https://www.cnn.com/2020/11/26/media/disney-layoffs/index.html 99% 
+
+(7) https://www.cnn.com/2020/11/25/economy/brexit-rishi-sunak-uk-economy-coronavirus/index.html 99% 
+
+(8) https://www.cnn.com/2020/11/19/us/smithsonian-washington-dc-museums-closed-covid-trnd/index.html 98% 
+
+(9) https://www.cnn.com/2020/11/17/uk/boris-johnson-downing-street-outbreak-intl-gbr/index.html 99% 
+
+(10) https://www.cnn.com/2020/11/13/uk/dominic-cummings-leaves-downing-street-gbr-intl/index.html 98% 
+
+
+## Topic 11
+(1) https://www.cnn.com/2021/02/27/politics/cpac-2021-speeches-saturday-2024-republicans/index.html 98% 
+
+(2) https://www.cnn.com/2021/02/11/politics/airlines-covid-white-house-meeting/index.html 92% 
+
+(3) https://www.cnn.com/2021/01/24/politics/biden-coronavirus-travel-trump/index.html 99% 
+
+(4) https://www.cnn.com/2021/01/24/politics/biden-travel-mask-requirement-enforcement/index.html 99% 
+
+(5) https://www.cnn.com/2021/01/18/politics/trump-covid-travel-restrictions/index.html 99% 
+
+(6) https://www.cnn.com/2021/01/15/health/national-guard-dc-deploy-coronavirus-testing/index.html 91% 
+
+(7) https://www.cnn.com/2020/12/25/politics/trump-economy-analysis/index.html 99% 
+
+(8) https://www.cnn.com/2020/12/17/politics/trump-silence-cyber-hack/index.html 99% 
+
+(9) https://www.cnn.com/2020/12/15/us/qanon-trump-twitter-invs/index.html 99% 
+
+(10) https://www.cnn.com/2020/12/08/politics/coronavirus-task-force-vaccines/index.html 91% 
+
+
+## Topic 12
+(1) https://www.cnn.com/2021/02/27/entertainment/golden-globes-melissa-trueblood/index.html 99% 
+
+(2) https://www.cnn.com/2021/02/17/politics/biden-outside-group/index.html 99% 
+
+(3) https://www.cnn.com/2021/02/10/politics/affordable-care-act-obamacare-biden-supreme-court/index.html 99% 
+
+(4) https://www.cnn.com/2021/02/07/world/ecuadoreans-president-vote-intl/index.html 99% 
+
+(5) https://www.cnn.com/2021/02/04/us/california-san-quentin-prison-covid-19-report/index.html 99% 
+
+(6) https://www.cnn.com/2021/02/02/asia/japan-state-emergency-intl-hnk/index.html 98% 
+
+(7) https://www.cnn.com/2021/01/29/politics/joe-biden-covid-19-relief-negotiations/index.html 99% 
+
+(8) https://www.cnn.com/2021/01/29/politics/donald-trump-republicans-joe-biden-coronavirus/index.html 99% 
+
+(9) https://www.cnn.com/travel/article/uk-uae-busiest-airline-route-covid/index.html 99% 
+
+(10) https://www.cnn.com/2021/01/25/politics/west-wing-offices-biden/index.html 91% 
+
+
+## Topic 13
+(1) https://www.cnn.com/2021/02/17/us/gaza-american-family-stuck-coronavirus-trnd/index.html 95% 
+
+(2) https://www.cnn.com/2021/02/15/health/covid-friendly-bars-went-flat-wellness/index.html 99% 
+
+(3) https://www.cnn.com/2021/02/03/business/grocery-stores-hazard-pay-seattle-los-angeles/index.html 99% 
+
+(4) https://www.cnn.com/2021/01/31/australia/western-australia-covid-lockdown-intl-hnk/index.html 99% 
+
+(5) https://www.cnn.com/2021/01/21/africa/south-africa-minister-covid-death-intl/index.html 99% 
+
+(6) https://www.cnn.com/2021/01/15/business/job-losses-europe-pandemic/index.html 97% 
+
+(7) https://www.cnn.com/2021/01/12/us/trump-protests-states/index.html 90% 
+
+(8) https://www.cnn.com/2021/01/09/asia/taiwan-us-restrictions-lifted-intl-hnk/index.html 99% 
+
+(9) https://www.cnn.com/2020/12/24/us/petitions-change-org-2020-trnd/index.html 99% 
+
+(10) https://www.cnn.com/2020/12/15/cnn10/ten-content-thurs/index.html 97% 
+
+
+## Topic 14
+
+## Topic 15
+
+## Topic 16
+
+## Topic 17
+
+## Topic 18
+
+## Topic 19
+
+## Topic 20
+
+## Topic 21
+
+## Topic 22
+
+## Topic 23
+
+## Topic 24
+
+## Topic 25
+
+## Topic 26
+
+## Topic 27
+
+## Topic 28
