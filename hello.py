@@ -14,9 +14,11 @@ from nltk.corpus import stopwords
 import nltk
 import urllib.request, urllib.error, urllib.parse
 import ssl
+import requests
 nltk.download('stopwords')
 nltk.download('wordnet')
 st.set_page_config(layout='wide')
+
 
 f = open("LDA.html" , "r")
 data = f.read()
@@ -70,6 +72,33 @@ def classificalda(x):
         st.stop()
     return (a,b,c,a_,b_,c_)
 
+def factcheck(texto):
+    query = "https://factchecktools.googleapis.com/v1alpha1/claims:search?query=PESQUISA&key=AIzaSyDHn8lRyiIGAqhF2q82SEwCywTk1_Wbmzc"
+    query = query.replace("PESQUISA",texto).replace(" ","%20")
+    query = requests.get(query, timeout=2.50)
+    try:
+        json = query.json()["claims"]
+        print(list(json[0]))
+        for i in range(len(json)):
+            texto = json[i]["text"]
+            try:
+                texto +="- Information Author: " + json[i]["claimant"]
+            except:
+                print(list(json[i]))
+            
+            texto +=". Reviewer: " + json[i]["claimReview"][0].get("publisher").get("name")
+            texto +=" " + json[i]["claimReview"][0].get("url")
+            texto +=". Verdict: " + json[i]["claimReview"][0].get("textualRating")
+            rating = json[i]["claimReview"][0].get("textualRating")
+            if "true" in rating.lower() or "pants on fire" in rating.lower():
+                st.success(texto)
+            elif "false" in rating.lower():
+                st.error(texto)
+            else:
+                st.info(texto)
+    except:
+        st.error("Could not find anything ... try writing in a different form")
+    
 
 teste = st.text_area("Enter text to classify",height = 200,max_chars = 10000)
 url = st.text_input('Or enter URL to be checked')
@@ -110,9 +139,13 @@ if url:
     
 else:
     tipoinput = "given text"
-    if len(teste) < 100:   
-        st.error('Text provided is too short. Please provide a text with 100 characters or more')
+    if len(teste) < 10:   
+        st.error('Text provided is too short. Please provide a text with 10 characters or more')
         st.stop()
+    with st.beta_expander('Fact checker'):
+        factcheck(teste)
+
+    
         
 
 with st.spinner(text='In progress'):
